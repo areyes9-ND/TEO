@@ -41,7 +41,7 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(75, 87, 219);
+            background: rgba(255, 251, 247, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
             padding: 1.5rem 5%;
@@ -60,13 +60,13 @@
         nav .logo {
             font-size: 2rem;
             font-weight: 900;
-            color: #000000;
+            color: var(--primary);
             text-decoration: none;
             letter-spacing: -1px;
         }
 
         nav .logo span {
-            color: #000000;
+            color: var(--secondary);
         }
 
         nav ul {
@@ -86,7 +86,7 @@
         }
 
         nav a:hover {
-            color: #4B57DB;
+            color: var(--primary);
         }
 
         nav a::after {
