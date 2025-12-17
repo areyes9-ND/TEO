@@ -41,7 +41,7 @@
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(75, 87, 219, 0.95);
+            background: rgba(255, 251, 247, 0.95);
             backdrop-filter: blur(10px);
             z-index: 1000;
             padding: 1.5rem 5%;
@@ -65,17 +65,17 @@
             letter-spacing: -1px;
         }
 
-         .logo span {
+        nav .logo span {
             color: var(--secondary);
         }
 
-         ul {
+        nav ul {
             display: flex;
             list-style: none;
             gap: 2.5rem;
         }
 
-         a {
+        nav a {
             color: var(--dark);
             text-decoration: none;
             font-family: 'Epilogue', sans-serif;
@@ -85,11 +85,11 @@
             position: relative;
         }
 
-         a:hover {
+        nav a:hover {
             color: var(--primary);
         }
 
-         a::after {
+        nav a::after {
             content: '';
             position: absolute;
             bottom: -5px;
@@ -100,7 +100,7 @@
             transition: width 0.3s ease;
         }
 
-         a:hover::after {
+        nav a:hover::after {
             width: 100%;
         }
 
@@ -660,7 +660,7 @@
                 gap: 2rem;
             }
 
-             ul {
+            nav ul {
                 display: none;
             }
 
